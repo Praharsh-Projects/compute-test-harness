@@ -1,0 +1,113 @@
+{
+  "results": [
+    {
+      "test_name": "matrix_small_correctness",
+      "suite_name": "correctness",
+      "workload": "matrix_multiply",
+      "exit_code": 0,
+      "elapsed_ms": 0.105,
+      "checksum": 628189.5648,
+      "stdout": "WORKLOAD=matrix_multiply\nCHECKSUM=628189.5648\nELAPSED_MS=0.105\n",
+      "stderr": "",
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "test_name": "memory_small_correctness",
+      "suite_name": "correctness",
+      "workload": "memory_bandwidth",
+      "exit_code": 0,
+      "elapsed_ms": 0.378,
+      "checksum": 255807.0,
+      "stdout": "WORKLOAD=memory_bandwidth\nCHECKSUM=255807\nELAPSED_MS=0.378\n",
+      "stderr": "",
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "test_name": "vector_correctness",
+      "suite_name": "correctness",
+      "workload": "vector_add",
+      "exit_code": 0,
+      "elapsed_ms": 0.152,
+      "checksum": 141297.8001,
+      "stdout": "WORKLOAD=vector_add\nCHECKSUM=141297.8001\nELAPSED_MS=0.152\n",
+      "stderr": "",
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "test_name": "matrix_perf_guard",
+      "suite_name": "performance",
+      "workload": "matrix_multiply",
+      "exit_code": 0,
+      "elapsed_ms": 0.336,
+      "checksum": 2122099.9101,
+      "stdout": "WORKLOAD=matrix_multiply\nCHECKSUM=2122099.9101\nELAPSED_MS=0.336\n",
+      "stderr": "",
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "test_name": "memory_perf_guard",
+      "suite_name": "performance",
+      "workload": "memory_bandwidth",
+      "exit_code": 0,
+      "elapsed_ms": 3.54,
+      "checksum": 1023715.0,
+      "stdout": "WORKLOAD=memory_bandwidth\nCHECKSUM=1023715\nELAPSED_MS=3.540\n",
+      "stderr": "",
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "test_name": "vector_perf_guard",
+      "suite_name": "performance",
+      "workload": "vector_add",
+      "exit_code": 0,
+      "elapsed_ms": 0.352,
+      "checksum": 470994.7002,
+      "stdout": "WORKLOAD=vector_add\nCHECKSUM=470994.7002\nELAPSED_MS=0.352\n",
+      "stderr": "",
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "test_name": "matrix_regression_probe",
+      "suite_name": "regression",
+      "workload": "matrix_multiply",
+      "exit_code": 0,
+      "elapsed_ms": 0.207,
+      "checksum": 1227508.1109,
+      "stdout": "WORKLOAD=matrix_multiply\nCHECKSUM=1227508.1109\nELAPSED_MS=0.207\n",
+      "stderr": "",
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "test_name": "memory_regression_probe",
+      "suite_name": "regression",
+      "workload": "memory_bandwidth",
+      "exit_code": 0,
+      "elapsed_ms": 0.997,
+      "checksum": 511737.0,
+      "stdout": "WORKLOAD=memory_bandwidth\nCHECKSUM=511737\nELAPSED_MS=0.997\n",
+      "stderr": "",
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "test_name": "vector_regression_probe",
+      "suite_name": "regression",
+      "workload": "vector_add",
+      "exit_code": 0,
+      "elapsed_ms": 0.267,
+      "checksum": 353253.1002,
+      "stdout": "WORKLOAD=vector_add\nCHECKSUM=353253.1002\nELAPSED_MS=0.267\n",
+      "stderr": "",
+      "failures": [],
+      "status": "PASS"
+    }
+  ],
+  "regressions": []
+}

@@ -1,0 +1,40 @@
+{
+  "tests": {
+    "matrix_small_correctness": {
+      "elapsed_ms": 0.096,
+      "checksum": 628189.5648
+    },
+    "memory_small_correctness": {
+      "elapsed_ms": 0.315,
+      "checksum": 255807.0
+    },
+    "vector_correctness": {
+      "elapsed_ms": 0.087,
+      "checksum": 141297.8001
+    },
+    "matrix_perf_guard": {
+      "elapsed_ms": 0.343,
+      "checksum": 2122099.9101
+    },
+    "memory_perf_guard": {
+      "elapsed_ms": 2.445,
+      "checksum": 1023715.0
+    },
+    "vector_perf_guard": {
+      "elapsed_ms": 0.353,
+      "checksum": 470994.7002
+    },
+    "matrix_regression_probe": {
+      "elapsed_ms": 0.183,
+      "checksum": 1227508.1109
+    },
+    "memory_regression_probe": {
+      "elapsed_ms": 0.809,
+      "checksum": 511737.0
+    },
+    "vector_regression_probe": {
+      "elapsed_ms": 0.242,
+      "checksum": 353253.1002
+    }
+  }
+}

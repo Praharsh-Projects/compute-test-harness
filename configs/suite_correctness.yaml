@@ -1,0 +1,17 @@
+suite_name: correctness
+
+tests:
+  - name: matrix_small_correctness
+    workload: matrix_multiply
+    args: [64, 1]
+    expected_exit_code: 0
+
+  - name: memory_small_correctness
+    workload: memory_bandwidth
+    args: [2097152, 12]
+    expected_exit_code: 0
+
+  - name: vector_correctness
+    workload: vector_add
+    args: [300000]
+    expected_exit_code: 0

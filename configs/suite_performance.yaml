@@ -1,0 +1,20 @@
+suite_name: performance
+
+tests:
+  - name: matrix_perf_guard
+    workload: matrix_multiply
+    args: [96, 1]
+    expected_exit_code: 0
+    max_time_ms: 1000
+
+  - name: memory_perf_guard
+    workload: memory_bandwidth
+    args: [8388608, 20]
+    expected_exit_code: 0
+    max_time_ms: 500
+
+  - name: vector_perf_guard
+    workload: vector_add
+    args: [1000000]
+    expected_exit_code: 0
+    max_time_ms: 250

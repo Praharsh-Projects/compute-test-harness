@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Compute Test Harness Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background: #f4f4f4; }
+    .pass { color: #1a7f37; font-weight: 600; }
+    .fail { color: #b42318; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <h1>Compute Test Harness Report</h1>
+  <h2>Results</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Test</th><th>Workload</th><th>Status</th><th>Elapsed (ms)</th><th>Checksum</th><th>Failures</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>matrix_small_correctness</td>
+        <td>matrix_multiply</td>
+        <td class="pass">PASS</td>
+        <td>0.105</td>
+        <td>628189.5648</td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td>memory_small_correctness</td>
+        <td>memory_bandwidth</td>
+        <td class="pass">PASS</td>
+        <td>0.378</td>
+        <td>255807.0000</td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td>vector_correctness</td>
+        <td>vector_add</td>
+        <td class="pass">PASS</td>
+        <td>0.152</td>
+        <td>141297.8001</td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td>matrix_perf_guard</td>
+        <td>matrix_multiply</td>
+        <td class="pass">PASS</td>
+        <td>0.336</td>
+        <td>2122099.9101</td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td>memory_perf_guard</td>
+        <td>memory_bandwidth</td>
+        <td class="pass">PASS</td>
+        <td>3.540</td>
+        <td>1023715.0000</td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td>vector_perf_guard</td>
+        <td>vector_add</td>
+        <td class="pass">PASS</td>
+        <td>0.352</td>
+        <td>470994.7002</td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td>matrix_regression_probe</td>
+        <td>matrix_multiply</td>
+        <td class="pass">PASS</td>
+        <td>0.207</td>
+        <td>1227508.1109</td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td>memory_regression_probe</td>
+        <td>memory_bandwidth</td>
+        <td class="pass">PASS</td>
+        <td>0.997</td>
+        <td>511737.0000</td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td>vector_regression_probe</td>
+        <td>vector_add</td>
+        <td class="pass">PASS</td>
+        <td>0.267</td>
+        <td>353253.1002</td>
+        <td></td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <h2>Regression Findings</h2>
+  
+    <p>No regressions detected.</p>
+  
+</body>
+</html>

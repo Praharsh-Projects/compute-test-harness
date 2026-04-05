@@ -1,0 +1,17 @@
+suite_name: regression
+
+tests:
+  - name: matrix_regression_probe
+    workload: matrix_multiply
+    args: [80, 1]
+    expected_exit_code: 0
+
+  - name: memory_regression_probe
+    workload: memory_bandwidth
+    args: [4194304, 16]
+    expected_exit_code: 0
+
+  - name: vector_regression_probe
+    workload: vector_add
+    args: [750000]
+    expected_exit_code: 0
